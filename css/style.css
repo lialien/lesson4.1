@@ -1,0 +1,78 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+@font-face {
+    font-family: ArticaPro;
+    src: url(../fonts/ArticaPro-Bold.woff2) format(woff2), url(../fonts/ArticaPro-Bold.woff) format(woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: ArticaPro;
+    src: url(../fonts/ArticaPro.woff2) format(woff2), url(../fonts/ArticaPro.woff) format(woff);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.header {
+    color: blueviolet;
+    font-family: "Supermercado One", cursive;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.list {
+    font-family: "ArticaPro", sans-serif;
+    color: cornflowerblue;
+    font-size: 40px;
+    text-shadow: 5px 5px 40px rgb(143, 82, 172);
+}
+#epic {
+    color: crimson;
+    font-family: "ArticaPro", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: right;
+}
+.epic {
+    text-align: right;
+}
+#world {
+    color: goldenrod;
+    font-size: 25px;
+    text-decoration: overline;
+}
+#coop {
+    color: indigo;
+    font-size: 25px;
+    text-decoration: line-through;
+    text-align: center;
+}
+.coop {
+    text-align: center;
+}
+#seven {
+    color: violet;
+    font-size: 25px;
+}
+#team {
+    color: yellowgreen;
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+}
+.team {
+    text-align: center;
+    font-style: italic;
+}
+.footer {
+    color: mediumslateblue;
+    font-family: "Supermercado One", cursive;
+    font-size: 30px;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
